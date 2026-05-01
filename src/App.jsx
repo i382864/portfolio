@@ -28,6 +28,7 @@ import citricRegions from './assets/CitricLabsXPSV/Regions.png'
 import citricRegionsAlt from './assets/CitricLabsXPSV/Regions-1.png'
 import citricEmotionTimeline from './assets/CitricLabsXPSV/V2 Emotion Timeline.png'
 import citricMatchEmotionTimeline from './assets/CitricLabsXPSV/V2 Match Emotion TimeLine.png'
+import curriculumVitae from './assets/CurriculumVitae.pdf'
 
 function App() {
   const [path, setPath] = useState(window.location.pathname)
@@ -212,7 +213,12 @@ function App() {
               </div>
             </div>
 
-            <a className="resume-btn" href="#contact">
+            <a
+              className="resume-btn"
+              href={curriculumVitae}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Request Resume
             </a>
           </section>
