@@ -843,11 +843,11 @@ function App() {
             <article className="home-project-row reverse">
               <img src={openRemoteImage} alt="OpenRemote preview" />
               <div>
-                <p className="project-tag">ADDING A FEATURE TO AN APPLICATION</p>
-                <h3>Adding a Message Scheduling Feature to WhatsApp Messenger</h3>
+                <p className="project-tag">PRODUCT FEATURE DESIGN</p>
+                <h3>OpenRemote</h3>
                 <p className="project-desc">
-                  This feature enables users to schedule messages for later and
-                  bring more flexibility to their communication flow.
+                  A parking-focused mobile concept that helps users quickly find,
+                  reserve, and manage parking sessions in real time.
                 </p>
                 <a
                   href="/projects/openremote"
