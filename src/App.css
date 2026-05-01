@@ -250,7 +250,7 @@
   margin: 0 auto;
   min-height: 100vh;
   padding: 1.8rem 0 3.2rem;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .case-page {
@@ -270,6 +270,10 @@
   position: relative;
   z-index: 1;
   margin-top: 1.5rem;
+}
+
+.projects-page .background-art {
+  inset: -2rem -8rem -8rem;
 }
 
 .projects-grid {
