@@ -260,8 +260,9 @@ function App() {
               <p className="project-tag">PRODUCT FEATURE DESIGN</p>
               <h3>OpenRemote</h3>
               <p className="project-desc">
-                A parking-focused mobile concept that helps users quickly find,
-                reserve, and manage parking sessions in real time.
+                A Manager UI redesign based on stakeholder insights, balancing
+                the needs of Integrators and Manufacturers across complex
+                technical workflows.
               </p>
               <span className="project-link">
                 View Case Study &#8594;
@@ -846,8 +847,9 @@ function App() {
                 <p className="project-tag">PRODUCT FEATURE DESIGN</p>
                 <h3>OpenRemote</h3>
                 <p className="project-desc">
-                  A parking-focused mobile concept that helps users quickly find,
-                  reserve, and manage parking sessions in real time.
+                  A Manager UI redesign based on stakeholder insights, balancing
+                  the needs of Integrators and Manufacturers across complex
+                  technical workflows.
                 </p>
                 <a
                   href="/projects/openremote"
