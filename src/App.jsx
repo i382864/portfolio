@@ -297,8 +297,9 @@ function App() {
               <p className="project-tag">WEB EXPERIENCE</p>
               <h3>CitricLabsXPSV</h3>
               <p className="project-desc">
-                A web product concept focused on simplifying user journeys,
-                improving information hierarchy, and increasing task completion.
+                A data dashboard concept for PSV marketing that translates large
+                volumes of media data into clear, actionable insights for faster
+                campaign decisions.
               </p>
               <span className="project-link">
                 View Case Study &#8594;
