@@ -143,7 +143,13 @@ function App() {
           <a href="mailto:sarvin_s@hotmail.com">Contact</a>
         </nav>
 
-        <a className="linkedin" href="#" aria-label="LinkedIn profile">
+        <a
+          className="linkedin"
+          href="https://www.linkedin.com/in/sarvin-satchithanantham-a38865268/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn profile"
+        >
           in
         </a>
       </header>
@@ -956,7 +962,13 @@ function App() {
             © 2026 Sarvin Satchithanantam | Get In Touch{' '}
             <a href="mailto:sarvin_s@hotmail.com">sarvin_s@hotmail.com</a>
           </p>
-          <a className="footer-linkedin" href="#" aria-label="LinkedIn profile">
+          <a
+            className="footer-linkedin"
+            href="https://www.linkedin.com/in/sarvin-satchithanantham-a38865268/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn profile"
+          >
             in
           </a>
         </div>
