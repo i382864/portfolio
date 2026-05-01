@@ -920,8 +920,9 @@ function App() {
                 <p className="project-tag">WEB EXPERIENCE</p>
                 <h3>CitricLabsXPSV</h3>
                 <p className="project-desc">
-                  A web design case focused on improved hierarchy, readability,
-                  and conversion-oriented user flows.
+                  A data dashboard concept for PSV marketing that translates large
+                  volumes of media data into clear, actionable insights for faster
+                  campaign decisions.
                 </p>
                 <a
                   href="/projects/citriclabsxpsv"
