@@ -29,6 +29,15 @@ import citricRegionsAlt from './assets/CitricLabsXPSV/Regions-1.png'
 import citricEmotionTimeline from './assets/CitricLabsXPSV/V2 Emotion Timeline.png'
 import citricMatchEmotionTimeline from './assets/CitricLabsXPSV/V2 Match Emotion TimeLine.png'
 import curriculumVitae from './assets/CurriculumVitae.pdf'
+import peakFrameMain from './assets/PEAK/Frame.png'
+import peakFrameAlt1 from './assets/PEAK/Frame-1.png'
+import peakFrameAlt2 from './assets/PEAK/Frame-2.png'
+import peakLogin from './assets/PEAK/Login.png'
+import peakRegister from './assets/PEAK/Register.png'
+import peakUserDetails from './assets/PEAK/User details.png'
+import peakUserDetails1 from './assets/PEAK/User details-1.png'
+import peakUserDetails2 from './assets/PEAK/User details-2.png'
+import peakIntegrationOverview from './assets/PEAK/Group 444.png'
 
 function App() {
   const [path, setPath] = useState(window.location.pathname)
@@ -300,11 +309,12 @@ function App() {
                 src={peakImage}
                 alt="PEAK project preview"
               />
-              <p className="project-tag">MOBILE UI KIT</p>
+              <p className="project-tag">PERSONAL PROJECT</p>
               <h3>PEAK</h3>
               <p className="project-desc">
-                A mobile product concept focused on habit consistency, progress
-                tracking, and motivational feedback.
+                A personal fitness concept that combines AI coaching with health
+                data, including smartwatch integration for real-time workout
+                support and progress tracking.
               </p>
               <span className="project-link">
                 View Case Study &#8594;
@@ -459,17 +469,15 @@ function App() {
           <section className="results-section">
             <h2>Results</h2>
             <div className="results-row">
-              <div className="result-circle">
-                <strong>100%</strong>
-                <span>Task Completion</span>
-              </div>
-              <div className="result-circle">
-                <strong>100%</strong>
-                <span>Task Completion</span>
-              </div>
               <p className="results-note">
-                All test users successfully completed both key flows after
-                onboarding and reported increased confidence while using the app.
+                Usability sessions showed that participants could complete the
+                core journey faster after the revised map, filters, and spot
+                detail flow were introduced.
+              </p>
+              <p className="results-note">
+                Most issues were related to information clarity rather than
+                navigation itself, which confirmed that improving hierarchy and
+                decision support had the biggest impact.
               </p>
             </div>
           </section>
@@ -766,10 +774,10 @@ function App() {
           <section className="case-section">
             <h2>Project Overview</h2>
             <p>
-              PEAK is a mobile experience designed to help users build and
-              maintain healthy routines. The product combines daily planning,
-              progress insights, and lightweight motivation to improve
-              consistency over time.
+              PEAK is a personal fitness project where I designed an AI-assisted
+              app to help users reach goals through coaching, progress insights,
+              and personal guidance. The concept includes both mobile and
+              smartwatch experiences to support users during workouts.
             </p>
           </section>
 
@@ -780,29 +788,67 @@ function App() {
             </div>
             <div>
               <h3>My Role</h3>
-              <p>UX/UI Design</p>
+              <p>UX/UI Design, Product Concept, AI Integration</p>
             </div>
             <div>
               <h3>Tools</h3>
-              <p>Figma, FigJam</p>
+              <p>Figma, Google Gemini, WearOS, Flutter, Health Connect</p>
             </div>
           </section>
 
           <section className="case-two-col">
             <div className="case-label-col">
               <p className="case-label">THE CHALLENGE</p>
-              <h3>Helping users stay consistent without adding complexity</h3>
+              <h3>Turning health data into actionable daily coaching</h3>
             </div>
             <div className="case-text-col">
               <p>
-                Many productivity and habit apps overwhelm users with dense
-                dashboards and too many setup options. This often leads to quick
-                drop-off after the first few sessions.
+                The challenge was to combine activity and progress data with AI
+                assistance in a way that feels clear, motivating, and practical
+                in everyday use.
               </p>
               <p>
-                PEAK focused on creating a simple and encouraging experience
-                where key actions are always clear, progress feels visible, and
-                daily use stays frictionless.
+                After designing the mobile app experience, I also worked on
+                smartwatch integration to support quick check-ins, progress
+                visibility, and on-the-go coaching moments.
+              </p>
+            </div>
+          </section>
+
+          <section className="wireframes-section">
+            <div className="wireframes-header">
+              <h2>Wireframes & Integration Screens</h2>
+              <span className="wireframes-chip">PEAK App + Watch Flow</span>
+            </div>
+            <p className="wireframes-copy">
+              These screens show key parts of the PEAK experience, from onboarding
+              and profile setup to app and smartwatch integration concepts.
+            </p>
+            <div className="openremote-wireframe-grid" onClick={openWireframe}>
+              <img src={peakLogin} alt="PEAK login screen" />
+              <img src={peakRegister} alt="PEAK register screen" />
+              <img src={peakFrameMain} alt="PEAK main app flow screen" />
+              <img src={peakFrameAlt1} alt="PEAK app flow variation 1" />
+              <img src={peakFrameAlt2} alt="PEAK app flow variation 2" />
+              <img src={peakUserDetails} alt="PEAK user details screen" />
+              <img src={peakUserDetails1} alt="PEAK user details variation 1" />
+              <img src={peakUserDetails2} alt="PEAK user details variation 2" />
+              <img src={peakIntegrationOverview} alt="PEAK smartwatch integration overview" />
+            </div>
+          </section>
+
+          <section className="results-section">
+            <h2>Results</h2>
+            <div className="results-row">
+              <p className="results-note">
+                The project resulted in a working prototype where smartwatch
+                data can be used to support real-time coaching moments during
+                workouts.
+              </p>
+              <p className="results-note">
+                A key outcome was selecting the right technical direction for the
+                product: prioritizing reliable real-time communication over a
+                more popular but less suitable integration path.
               </p>
             </div>
           </section>
@@ -883,11 +929,12 @@ function App() {
             <article className="home-project-row reverse">
               <img src={peakImage} alt="PEAK preview" />
               <div>
-                <p className="project-tag">MOBILE PRODUCT EXPERIENCE</p>
+                <p className="project-tag">PERSONAL PROJECT</p>
                 <h3>PEAK</h3>
                 <p className="project-desc">
-                  A habit and progress concept focused on consistency, clear
-                  goals, and motivating daily feedback loops.
+                  A personal fitness concept that combines AI coaching with health
+                  data, including smartwatch integration for real-time workout
+                  support and progress tracking.
                 </p>
                 <a
                   href="/projects/peak"
