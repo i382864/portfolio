@@ -443,13 +443,14 @@ function App() {
                 observed while attempting core flows in the prototype.
               </p>
               <p>
-                <strong>Scenario 1:</strong> Create an account and complete the
-                onboarding process.
+                <strong>Scenario 1:</strong> Search for parking near a destination
+                and select an available spot from the map.
                 <br />
-                <strong>Scenario 2:</strong> Track a routine and upload progress
-                photos.
+                <strong>Scenario 2:</strong> Review spot details (price, distance,
+                and availability) and complete a booking.
                 <br />
-                <strong>Scenario 3:</strong> Discover and save relevant products.
+                <strong>Scenario 3:</strong> Apply filters to compare options and
+                find the best match for the user&apos;s needs.
               </p>
             </div>
           </section>
